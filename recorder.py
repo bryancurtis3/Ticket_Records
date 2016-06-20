@@ -6,7 +6,7 @@ try:
     from kayako import KayakoAPI
 
     path = str(sys.argv[0])
-    path = path.replace("graph.py", '')
+    path = path.replace("recorder.py", '')
 
     file = 'picklegraph.pk'
     file = path + file
