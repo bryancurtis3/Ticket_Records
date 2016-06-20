@@ -68,7 +68,7 @@ try:
         hits = ticketcount - previous
 
         stamp = '{:%Y-%m-%d | %H:%M}'.format(datetime.datetime.now())
-        stamp = stamp + ' ' + str(dow) + ' ' + str(hits) + ' ' + str(datetime.datetime.now().isocalendar()[1])
+        stamp = stamp + ' ' + str(dow) + ' ' + str(hits)
 
         f.write(stamp)
         f.close()
